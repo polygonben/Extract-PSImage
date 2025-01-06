@@ -2,7 +2,7 @@
 
 A Python utility to extract PowerShell scripts hidden in PNG images by [Invoke-PSImage](https://github.com/peewpw/Invoke-PSImage).
 
-**Invoke-PSImage** is a PowerShell script by [Barrett Adams (@peewpw)](https://twitter.com/peewpw) that performs rudimentary steganography. It reads a `.ps1` script, converts it into a byte array, and then encodes those bytes into a PNG image. When run, it also generates a one-liner that can recover and execute that hidden script in memory.
+**Invoke-PSImage** is a PowerShell script by [Barrett Adams (@peewpw)](https://twitter.com/peewpw) that performs steganography. It reads a `.ps1` script, converts it into a byte array, and then encodes those bytes into a PNG image. When run, it also generates a one-liner that can recover and execute that hidden script in memory.
 
 ## How Invoke-PSImage Encodes Data
 
