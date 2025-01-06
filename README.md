@@ -20,7 +20,7 @@ Invoke-PSImage supports **two** main ways to place script bytes into the image. 
    - Each pixel stores 3 full bytes in the order: `(Blue, Green, Red)`.  
    - Because it’s a brand-new image, distortion is irrelevant. The script is essentially stored “as-is” within each pixel’s color channels.
 
-## Why There’s Trailing Garbage
+## Why There’s Trailing Garbage (I think?)
 
 Invoke-PSImage **does not** record the exact length of the hidden script. It just fills the rest of the image with random bytes. Consequently, **when decoding**, you can end up with some garbled data at the end.
 
