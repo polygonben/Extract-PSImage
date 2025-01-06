@@ -45,7 +45,7 @@ In many cases, **one** of these outputs will contain the clean PowerShell script
    ```
 2. **Run**:  
    ```bash
-   python decode_psimage.py <encoded_image.png>
+   python extract_ps_image.py <encoded_image.png>
    ```
 3. **Check** the output files:  
    - `decoded_embedded.full.txt` / `decoded_embedded.txt` (LSB approach)  
